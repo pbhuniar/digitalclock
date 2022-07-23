@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  background-color: #c9c7e9;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.clock-position{
+  display: flex;
+  justify-content: center;
+}
+.button-action{
+  height:40px;
+width: 100px;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  background-color: #5850d3;
+  color: #fff;
+  border: 1px solid transparent;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+.button-action:hover{
+  transition: 0.4s;
+  height:40px;
+  background-color: #ffff;
+  color: #5850d3;
+  border: none;
+  border: 1px solid #5850d3;
+  font-weight: 400;
+}
+.action-button-outer{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+}
+.react-clock__face{
+border: 3px solid #5850d3 !important;
+background-color: #c9c7e9 !important;
+}
